@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SingleTrackCol | Taller de Bicicletas</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <div class="nav-logo">
+    <img src="images/logo_blanco.svg" width="89" height="80" alt="SingleTrackCol logo">
+    SINGLE<span class="acc">TRACK</span><span class="cyn">COL</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#taller">El Taller</a></li>
+    <li><a href="#fotos">Galería</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <a href="https://wa.me/573214645808?text=Hola.%0AQuisiera%20informaci%C3%B3n%20sobre%20los%20servicios%20y%20mantenimiento%20de%20bicicletas%20en%20SingleTrackCol.%20Gracias." class="btn btn-primary" style="padding:10px 20px;font-size:0.8rem;">💬 WhatsApp</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <!-- Big BG gear -->
+  <svg class="hero-gear-bg" viewBox="0 0 700 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="350" cy="350" r="330" stroke="white" stroke-width="3"/>
+    <circle cx="350" cy="350" r="270" stroke="white" stroke-width="1.5"/>
+    <circle cx="350" cy="350" r="180" stroke="white" stroke-width="1.5"/>
+    <circle cx="350" cy="350" r="50" fill="white"/>
+    <!-- Teeth -->
+    <g fill="white">
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(0 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(15 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(30 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(45 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(60 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(75 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(90 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(105 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(120 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(135 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(150 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(165 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(180 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(195 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(210 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(225 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(240 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(255 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(270 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(285 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(300 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(315 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(330 350 350)"/>
+      <rect x="340" y="12" width="20" height="35" rx="5" transform="rotate(345 350 350)"/>
+    </g>
+  </svg>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">Bogotá — Colombia</p>
+    <h1 class="hero-title">
+      <span class="l1">SINGLE</span>
+      <span class="l2">TRACK</span>
+    </h1>
+    <p class="hero-sub">Taller especializado en bicicletas · Donde la experiencia se convierte en precisión, y cada ajuste se traduce en mejor rendimiento sobre la ruta o la montaña.</p>
+    <div class="hero-cta">
+      <a href="#servicios" class="btn btn-primary">Ver servicios</a>
+      <a href="#contacto" class="btn btn-outline">Agendar cita</a>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>scroll</span>
+    <svg width="16" height="24" viewBox="0 0 16 24"><rect x="6" y="3" width="4" height="8" rx="2" fill="none" stroke="#888" stroke-width="1.5"/><rect x="0" y="0" width="16" height="24" rx="8" fill="none" stroke="#888" stroke-width="1.5"/></svg>
+  </div>
+</section>
+
+<!-- TICKER BANNER -->
+<div class="ticker-wrap">
+  <div class="ticker" id="ticker">
+    <span class="ticker-item">REVISIÓN TÉCNICA</span>
+    <span class="ticker-item">MANTENIMIENTO</span>
+    <span class="ticker-item">ALISTAMIENTO</span>
+    <span class="ticker-item">SPA DE BICI</span>
+    <span class="ticker-item">DESPINCHADO</span>
+    <span class="ticker-item">AJUSTE GENERAL</span>
+    <span class="ticker-item">PRE-ALISTAMIENTO</span>
+    <span class="ticker-item">MANTENIMIENTO SIMULADORES</span>
+    <span class="ticker-item">REVISIÓN TÉCNICA</span>
+    <span class="ticker-item">MANTENIMIENTO</span>
+    <span class="ticker-item">ALISTAMIENTO</span>
+    <span class="ticker-item">SPA DE BICI</span>
+    <span class="ticker-item">DESPINCHADO</span>
+    <span class="ticker-item">AJUSTE GENERAL</span>
+    <span class="ticker-item">PRE-ALISTAMIENTO</span>
+    <span class="ticker-item">MANTENIMIENTO SIMULADORES</span>
+  </div>
+</div>
+
+<!-- MECHANIC SPOTLIGHT -->
+<section class="mechanic-section" id="taller">
+  <div class="gear-wrapper">
+    <!-- Animated chainring SVG -->
+    <svg class="chainring-svg" id="chainringAnim" viewBox="0 0 340 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="yellowGlow">
+          <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+          <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="cyanGlow">
+          <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+          <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+      <!-- Outer ring -->
+      <circle cx="170" cy="170" r="162" fill="none" stroke="#F5C518" stroke-width="2" filter="url(#yellowGlow)"/>
+      <circle cx="170" cy="170" r="150" fill="#101010" stroke="#1e1e1e" stroke-width="1"/>
+      <!-- Chainring teeth (34 teeth) -->
+      <g fill="#F5C518">
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(0 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(10.6 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(21.2 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(31.8 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(42.4 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(53 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(63.5 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(74.1 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(84.7 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(95.3 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(105.9 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(116.5 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(127.1 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(137.6 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(148.2 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(158.8 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(169.4 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(180 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(190.6 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(201.2 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(211.8 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(222.4 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(232.9 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(243.5 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(254.1 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(264.7 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(275.3 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(285.9 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(296.5 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(307.1 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(317.6 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(328.2 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(338.8 170 170)"/>
+        <rect x="163" y="4" width="14" height="24" rx="4" transform="rotate(349.4 170 170)"/>
+      </g>
+      <!-- Inner decorative ring -->
+      <circle cx="170" cy="170" r="128" fill="none" stroke="#222" stroke-width="1.5"/>
+      <circle cx="170" cy="170" r="92" fill="none" stroke="#00C9D4" stroke-width="1" opacity="0.5" filter="url(#cyanGlow)"/>
+      <!-- Spider arms (5-bolt) -->
+      <g stroke="#2a2a2a" stroke-width="9" stroke-linecap="round">
+        <line x1="170" y1="170" x2="170" y2="88"/>
+        <line x1="170" y1="170" x2="170" y2="88" transform="rotate(72 170 170)"/>
+        <line x1="170" y1="170" x2="170" y2="88" transform="rotate(144 170 170)"/>
+        <line x1="170" y1="170" x2="170" y2="88" transform="rotate(216 170 170)"/>
+        <line x1="170" y1="170" x2="170" y2="88" transform="rotate(288 170 170)"/>
+      </g>
+      <!-- Bolt holes on spider ends -->
+      <g fill="#1a1a1a" stroke="#F5C518" stroke-width="1.5">
+        <circle cx="170" cy="92" r="8"/>
+        <circle cx="170" cy="92" r="8" transform="rotate(72 170 170)"/>
+        <circle cx="170" cy="92" r="8" transform="rotate(144 170 170)"/>
+        <circle cx="170" cy="92" r="8" transform="rotate(216 170 170)"/>
+        <circle cx="170" cy="92" r="8" transform="rotate(288 170 170)"/>
+      </g>
+      <!-- Center -->
+      <circle cx="170" cy="170" r="22" fill="#1a1a1a" stroke="#F5C518" stroke-width="2"/>
+      <circle cx="170" cy="170" r="10" fill="#F5C518"/>
+    </svg>
+
+    <!-- Photo in center -->
+    <div class="gear-photo">
+      <div class="gear-photo-ph">
+         <img src="images\Mecanico-jr-IA.jpeg"width="270" height="262">
+      </div>
+    </div>
+  </div>
+
+  <div class="mechanic-info">
+    <div class="tag">Nuestro experto</div>
+    <h2 class="mname">MECÁNICO<br><span>EXPERTO</span></h2>
+    <p class="mtitle">⚙️ Especialista certificado en ciclismo</p>
+    <p class="mdesc">
+      Especialista certificado en mecánica de bicicletas, con más de una década de experiencia trabajando bicicletas de ruta, MTB y ciclocross. Nuestro mecánico domina a la perfección cada sistema de la bicicleta: transmisión, suspensión, frenos hidráulicos y geometría, aplicando ajustes precisos que optimizan el rendimiento y la seguridad.
+      Cada bicicleta que ingresa al taller recibe una atención minuciosa y personalizada, garantizando un funcionamiento impecable y una experiencia de rodada superior. Aquí no se hacen ajustes al azar: se trabaja con criterio técnico, precisión y pasión por el ciclismo.
+    </p>
+    <div class="stats-row">
+      <div>
+        <div class="stat-num">500+</div>
+        <div class="stat-label">Bicis atendidas</div>
+      </div>
+      <div>
+        <div class="stat-num">10+</div>
+        <div class="stat-label">Años de exp.</div>
+      </div>
+      <div>
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Satisfacción</div>
+      </div>
+    </div>
+    <div class="mechanic-plus">
+      <p class="mtitle">Precisión técnica, atención al detalle y resultados que se sienten desde la primera pedalada.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CHAIN DIVIDER -->
+<div class="chain-div">
+  <div class="chain-track" id="chainTrack"></div>
+</div>
+
+<!-- SERVICES -->
+<section class="services-section" id="servicios">
+  <div class="section-header">
+    <div class="tag" style="justify-content:center;">Lo que hacemos</div>
+    <h2 class="section-title">NUESTROS <span class="acc">SERVICIOS</span></h2>
+    <p class="section-sub">Afinamos cada componente con mecánica profesional para que tu bicicleta entregue el máximo rendimiento en cualquier terreno. </p>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card reveal-card">
+      <span class="service-num">01</span>
+      <span class="service-icon">👨‍🔧</span>
+      <div class="service-name">Revisión Técnica</div>
+      <div class="service-desc">Inspección completa de todos los componentes: frenos, transmisión, dirección, rodamientos y estructura del cuadro. Diagnóstico profesional.</div>
+    </div>
+    <div class="service-card reveal-card">
+      <span class="service-num">02</span>
+      <span class="service-icon">⚙️</span>
+      <div class="service-name">Mantenimiento</div>
+      <div class="service-desc">Limpieza profunda, lubricación y ajuste de todos los sistemas. Tu bici rodando como el primer día, cada vez que salgas.</div>
+    </div>
+    <div class="service-card reveal-card">
+      <span class="service-num">03</span>
+      <span class="service-icon">🔧</span>
+      <div class="service-name">Alistamiento</div>
+      <div class="service-desc">Preparación completa para competencia o rodada exigente. Verificamos cada detalle para que salgas con toda la confianza.</div>
+    </div>
+    <div class="service-card reveal-card">
+      <span class="service-num">04</span>
+      <span class="service-icon">🛠️</span>
+      <div class="service-name">Pre-Alistamiento</div>
+      <div class="service-desc">Revisión previa a la rodada o evento. Chequeo rápido y efectivo para corregir pequeños detalles antes de rodar.</div>
+    </div>
+    <div class="service-card reveal-card">
+      <span class="service-num">05</span>
+      <span class="service-icon">🗜️</span>
+      <div class="service-name">Ajuste General</div>
+      <div class="service-desc">Calibración de cambios, frenos, dirección y tija. Pequeños ajustes que hacen una gran diferencia en el rendimiento diario.</div>
+    </div>
+    <div class="service-card reveal-card">
+      <span class="service-num">06</span>
+      <span class="service-icon">💦</span>
+      <div class="service-name">Spa de Bici</div>
+      <div class="service-desc">Lavado profesional, desengrase, limpieza de componentes y protección anti-corrosión. Tu bicicleta brillando como nueva.</div>
+    </div>
+    <div class="service-card reveal-card">
+      <span class="service-num">07</span>
+      <span class="service-icon">🎈</span>
+      <div class="service-name">Despinchado</div>
+      <div class="service-desc">Reparación de neumáticos y cámaras. También convertimos sistemas a tubeless para mayor seguridad y confort en ruta o trail.</div>
+    </div>
+    <div class="service-card reveal-card">
+      <span class="service-num">08</span>
+      <span class="service-icon">🏋️</span>
+      <div class="service-name">Simuladores</div>
+      <div class="service-desc">Mantenimiento y revisión de rodillos y simuladores de entrenamiento. Calibración de potenciómetros y sensores de cadencia.</div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="photos-section" id="fotos">
+  <div class="section-header">
+    <div class="tag" style="justify-content:center;">El taller</div>
+    <h2 class="section-title">NUESTRO <span class="acc">ESPACIO</span></h2>
+    <p class="section-sub">Equipos profesionales · Ambiente especializado · Bogotá</p>
+  </div>
+  <div class="photos-grid">
+    <div class="photo-cell">
+      <div class="photo-inner">
+        <img src="images/taller-03.jpeg" width="596" height="484" alt="SingleTrackCol logo">
+
+      </div>
+      <div class="photo-label">Taller Principal — SingleTrackCol</div>
+    </div>
+    <div class="photo-cell">
+      <div class="photo-inner">
+        <img src="images/taller-06.jpeg" width="298" height="200" alt="SingleTrackCol logo">
+      </div>
+      <div class="photo-label">Área de Trabajo</div>
+    </div>
+    <div class="photo-cell">
+      <div class="photo-inner">
+        <img src="images/taller-05.jpeg" width="298" height="200" alt="SingleTrackCol logo">
+      </div>
+      <div class="photo-label">Herramientas</div>
+    </div>
+    <div class="photo-cell">
+      <div class="photo-inner">
+        <img src="images/taller-01.jpeg" width="298" height="200" alt="SingleTrackCol logo">
+      </div>
+      <div class="photo-label">Componentes</div>
+    </div>
+    <div class="photo-cell">
+      <div class="photo-inner">
+        <img src="images/taller-02.jpeg" width="298" height="200" alt="SingleTrackCol logo">
+      </div>
+      <div class="photo-label">Bicicletas</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contacto">
+  <div class="contact-layout">
+    <div class="contact-text">
+      <div class="tag">Encuéntranos</div>
+      <h2 class="section-title" style="font-size:clamp(2rem,5vw,3.5rem);text-align:left;">CONTACTO &amp;<br><span class="acc">UBICACIÓN</span></h2>
+
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="c-icon">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          </div>
+          <div><div class="c-label">WhatsApp</div><div class="c-val"><a href="https://wa.me/573214645808?text=Hola.%0AQuisiera%20informaci%C3%B3n%20sobre%20los%20servicios%20y%20mantenimiento%20de%20bicicletas%20en%20SingleTrackCol.%20Gracias.">+57 321 464 5808</a></div></div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </div>
+          <div><div class="c-label">Instagram</div><div class="c-val"><a href="https://www.instagram.com/singletrackcol?igsh=MW40cDNwOWNxcGpzMA==" target="_blank">@singletrackcol</a></div></div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </div>
+          <div><div class="c-label">Facebook</div><div class="c-val"><a href="#" target="_blank">SingleTrackCol</a></div></div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+          </div>
+          <div><div class="c-label">TikTok</div><div class="c-val"><a href="#" target="_blank">@singletrackcol</a></div></div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">📧</div>
+          <div><div class="c-label">Email</div><div class="c-val">singletrackcol@gmail.com</div></div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">📍</div>
+          <div><div class="c-label">Dirección</div><div class="c-val">Cl. 59 #58 - 39, Bogotá, Colombia</div></div>
+        </div>
+      </div>
+
+      <div class="sched">
+        <div class="sch-item">
+          <div class="sch-day">Lun — Vie</div>
+          <div class="sch-time">8:00 AM – 6:00 PM</div>
+        </div>
+        <div class="sch-item">
+          <div class="sch-day">Sábados</div>
+          <div class="sch-time">9:00 AM – 5:00 PM</div>
+        </div>
+        <div class="sch-item">
+          <div class="sch-day">Domingos</div>
+          <div class="sch-time">10:00 AM – 2:00 PM</div>
+        </div>
+        <div class="sch-item" style="background:rgba(245,197,24,.06);border-color:rgba(245,197,24,.2);">
+          <div class="sch-day" style="color:var(--yellow)">Festivos</div>
+          <div class="sch-time" style="color:var(--yellow)">Consultar</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-box">
+        <iframe    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.598977552334!2d-74.090786!3d4.6538508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b7e912d0eeb%3A0x90f46b9c062b5374!2sSingle%20Track%20Taller%20de%20Bicicletas!5e0!3m2!1ses!2sco!4v1700000000000" 
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+  <div class="map-tag"> 📍Bogotá, Colombia</div>
+</div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">
+    <img src="images/logo_blanco.svg" width="89" height="80" alt="SingleTrackCol logo">
+    SINGLE<span style="color:var(--yellow)">TRACK</span><span style="color:var(--cyan)">COL</span>
+    <span style="font-size:0.65rem;color:#444;font-family:'Rajdhani',sans-serif;letter-spacing:0.1em;margin-left:4px;">TALLER DE BICICLETAS</span>
+  </div>
+  <div class="social-links">
+    <a href="https://www.instagram.com/singletrackcol?igsh=MW40cDNwOWNxcGpzMA==" class="social-link" title="Instagram">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+    </a>
+    <a href="#" class="social-link" title="Facebook">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+    </a>
+    <a href="#" class="social-link" title="TikTok">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+    </a>
+    <a href="https://wa.me/573214645808?text=Hola.%0AQuisiera%20informaci%C3%B3n%20sobre%20los%20servicios%20y%20mantenimiento%20de%20bicicletas%20en%20SingleTrackCol.%20Gracias." class="social-link" title="WhatsApp">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </a>
+  </div>
+  <div class="footer-copy">© 2025 SingleTrackCol · Bogotá, Colombia</div>
+</footer>
+
+<!-- WhatsApp FAB -->
+<a href="https://wa.me/573214645808?text=Hola.%0AQuisiera%20informaci%C3%B3n%20sobre%20los%20servicios%20y%20mantenimiento%20de%20bicicletas%20en%20SingleTrackCol.%20Gracias." class="wa-fab" target="_blank" title="Escríbenos">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+<script src="script.js"></script>
+</body>
+</html>
